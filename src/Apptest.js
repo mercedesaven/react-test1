@@ -1,12 +1,13 @@
 import React from 'react';
 //import {BrowserRouter as Router, Route } from 'react-router-dom' 
+//import Otro from './Otro'
 
 const algo = {
   name:'merchy', 
   text:'probando react'
 }
 
-function Apptest() {
+function Apptest(props) {
   return (
     <div className="App">
       <header className="App-header">
@@ -23,6 +24,7 @@ function Apptest() {
       <p>{algo.name}</p>
       <p>{algo.text}</p>
       </header>
+      
     </div>
     
   );
